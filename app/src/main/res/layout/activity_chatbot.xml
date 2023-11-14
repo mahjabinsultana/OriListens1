@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatbotActivity"
+    android:background="@drawable/background3">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idRVChats"
+        android:layout_above="@+id/idRLMsg"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/idRLMsg">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type a message"
+            android:textColorHint="@color/graypurple"
+            android:id="@+id/idEdtMessage"
+            android:layout_margin="3dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/idFABSend"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:singleLine="true" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFABSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="@color/graypurple"
+            android:src="@android:drawable/ic_menu_send"
+            android:tint="@color/white"
+            app:fabCustomSize="45dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
