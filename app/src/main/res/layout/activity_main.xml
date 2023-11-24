@@ -8,24 +8,24 @@
 
     <TextView
         android:id="@+id/idwelcome"
-        android:layout_width="269dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="16dp"
-        android:text="Welcome!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Some suggested vidoes for you!"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
-        android:textSize="50sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/idRLMsg"
+        android:layout_width="410dp"
+        android:layout_height="561dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idwelcome">
@@ -33,53 +33,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/mainRV"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp" />
+            android:layout_height="wrap_content" />
     </ScrollView>
-
-    <RelativeLayout
-        android:id="@+id/idRLMsg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="16dp"
-        android:padding="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="3dp"
-            android:layout_toLeftOf="@id/idChatbot"
-            android:singleLine="true"
-            android:text="Chat with Ori"
-            android:textColor="@color/darkblue"
-            android:textSize="20dp"
-            android:textStyle="bold|italic" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/idChatbot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="4dp"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/ic_chat"
-            android:tint="@color/white"
-            app:fabCustomSize="45dp" />
-
-
-    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

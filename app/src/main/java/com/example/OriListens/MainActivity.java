@@ -49,14 +49,6 @@ public class MainActivity extends AppCompatActivity implements MainListener {
         //database = FirebaseDatabase.getInstance().getReference("Vidoes");
 
 
-        button = findViewById(R.id.idChatbot);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openNewActivity();
-            }
-        });
-
 
         // navigationview start
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -69,22 +61,21 @@ public class MainActivity extends AppCompatActivity implements MainListener {
                 if (id == R.id.nav_home) {
                     // Handle the home action
                     Toast.makeText(MainActivity.this,"HOME",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    Intent intent = new Intent(getApplicationContext(),homepage.class);
                     startActivity(intent);
                     finish();
                 } else if (id == R.id.nav_chatbot) {
                     // Handle the gallery action
                     Toast.makeText(MainActivity.this,"Chatbot",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(),ChatbotActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                     finish();
                 }
                 else if (id == R.id.nav_videos) {
                     // Handle the gallery action
                     Toast.makeText(MainActivity.this,"Videos",Toast.LENGTH_SHORT).show();
-
+                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    startActivity(intent);
                 }
                 else if (id == R.id.nav_contact) {
                     // Handle the gallery action

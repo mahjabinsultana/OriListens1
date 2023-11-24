@@ -28,7 +28,7 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login1);
 
         mAuth= FirebaseAuth.getInstance();
         email=findViewById(R.id.emailLogin);
@@ -65,7 +65,7 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
                     Toast toast = Toast.makeText(getApplicationContext(),"Login successful!",Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 0);
                     toast.show();
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),homepage.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                     finish();

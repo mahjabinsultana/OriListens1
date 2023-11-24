@@ -7,52 +7,59 @@
     tools:context=".homepage">
 
 
-
-    <RelativeLayout
-        android:id="@+id/idRLMsg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="16dp"
-        android:padding="20dp"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="410dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gotochatbotbutton"
+        app:srcCompat="@drawable/meditation" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="142dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="135dp"
+        android:text="Welcome back!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-       >
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="61dp"
+        android:text="How are you feeling today?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="3dp"
-            android:layout_toLeftOf="@id/idChatbot"
-            android:singleLine="true"
-            android:text="Chat with Ori"
-            android:textColor="@color/darkblue"
-            android:textSize="20dp"
-            android:textStyle="bold|italic" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/idChatbot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="4dp"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/ic_chat"
-            android:tint="@color/white"
-            app:fabCustomSize="45dp" />
-
-
-    </RelativeLayout>
+    <Button
+        android:id="@+id/gotochatbotbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="@color/graypurple"
+        android:text=" Want to chat with Ori?"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
