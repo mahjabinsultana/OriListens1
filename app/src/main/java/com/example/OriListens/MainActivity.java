@@ -1,15 +1,21 @@
 package com.example.OriListens;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.OriListens.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements MainListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.nav_activity_main);
         recyclerView = findViewById(R.id.mainRV);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
@@ -51,6 +57,49 @@ public class MainActivity extends AppCompatActivity implements MainListener {
             }
         });
 
+
+        // navigationview start
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                // Handle navigation view item clicks here.
+                int id = item.getItemId();
+
+                if (id == R.id.nav_home) {
+                    // Handle the home action
+                    Toast.makeText(MainActivity.this,"HOME",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                    finish();
+                } else if (id == R.id.nav_chatbot) {
+                    // Handle the gallery action
+                    Toast.makeText(MainActivity.this,"Chatbot",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),ChatbotActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                    finish();
+                }
+                else if (id == R.id.nav_videos) {
+                    // Handle the gallery action
+                    Toast.makeText(MainActivity.this,"Videos",Toast.LENGTH_SHORT).show();
+
+                }
+                else if (id == R.id.nav_contact) {
+                    // Handle the gallery action
+                    Toast.makeText(MainActivity.this,"Contact",Toast.LENGTH_SHORT).show();
+
+                }
+
+                DrawerLayout drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                return true;
+            }
+        });
+        // navview end
+
+
     }
     public void openNewActivity(){
         Intent intent = new Intent(this, ChatbotActivity.class);
@@ -64,4 +113,9 @@ public class MainActivity extends AppCompatActivity implements MainListener {
         intent.putExtra("messageKey", mainRV_item.getText());
         startActivity(intent);
     }
+
+
+
+
+
 }

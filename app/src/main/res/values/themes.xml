@@ -14,4 +14,13 @@
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/quicksand</item>
     </style>
+
+    <style name="Theme.MentalHealthCounselling1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MentalHealthCounselling1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MentalHealthCounselling1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
