@@ -1,17 +1,23 @@
 package com.example.OriListens;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.OriListens.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -57,12 +63,25 @@ public class ChatRVAdapter extends RecyclerView.Adapter{
                 if(chatsModal.getVideo().equals("null")){
 
                     ((BotViewHolder)holder).botMsgTV.setText(chatsModal.getMessage());
-                    ((BotViewHolder)holder).webView.setVisibility(View.GONE);
+                    ((BotViewHolder)holder).cardView.setVisibility(View.GONE);
                     }
                 else{
                     ((BotViewHolder)holder).botMsgTV.setText(chatsModal.getMessage());
-                    ((BotViewHolder)holder).webView.loadData(chatsModal.getVideo(), "text/html", "utf-8");
-                    //((BotViewHolder)holder).webView.setVisibility(View.GONE);
+                    //((BotViewHolder)holder).webView.loadData(chatsModal.getVideo(), "text/html", "utf-8");
+                    VideoInfo videoInfo = new VideoInfo(chatsModal.getVideo());
+                    videoInfo.createThumbnailUrl();//"https://img.youtube.com/vi/BVJkf8IuRjE/hqdefault.jpg"
+                    videoInfo.createUrl();
+                    Picasso.get().load(videoInfo.getThumbnailUrl()).into(((BotViewHolder) holder).thumbnail);
+
+                    ((BotViewHolder)holder).cardView.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            String videoLink = videoInfo.getUrl();
+
+                            // Launch the YouTube video using an Intent
+                            watchYoutubeVideo(view.getContext(), videoLink);
+                        }
+                    });
                     //Toast.makeText(context,chatsModal.getMessage(), Toast.LENGTH_SHORT).show();
                     //Toast.makeText(context,chatsModal.getVideo(), Toast.LENGTH_SHORT).show();
 
@@ -107,13 +126,13 @@ public class ChatRVAdapter extends RecyclerView.Adapter{
 
     public static class BotViewHolder extends RecyclerView.ViewHolder{
         TextView botMsgTV;
-        WebView webView;
+        ImageView thumbnail;
+        CardView cardView;
         public BotViewHolder(@NonNull View itemView) {
             super(itemView);
             botMsgTV = itemView.findViewById(R.id.idTVBot);
-            webView = itemView.findViewById(R.id.webView);
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.setWebChromeClient(new WebChromeClient());
+            thumbnail = itemView.findViewById(R.id.videoThumbnailIV);
+            cardView = itemView.findViewById(R.id.cardV);
 
         }
     }
@@ -126,4 +145,14 @@ public class ChatRVAdapter extends RecyclerView.Adapter{
             botMsgTV = itemView.findViewById(R.id.idTVBot_only_message);
         }
     }*/
+    private void watchYoutubeVideo(Context context, String videoLink) {
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(videoLink));
+        Intent webIntent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse(videoLink));
+        try {
+            context.startActivity(appIntent);
+        } catch (ActivityNotFoundException ex) {
+            context.startActivity(webIntent);
+        }
+    }
 }

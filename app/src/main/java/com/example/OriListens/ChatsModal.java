@@ -6,6 +6,7 @@ public class ChatsModal {
     private String sender;
     private String video;
 
+
     public ChatsModal(String message, String video, String sender) {
         this.message = message;
         this.sender = sender;
