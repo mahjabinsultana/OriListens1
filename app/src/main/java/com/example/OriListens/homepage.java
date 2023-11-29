@@ -51,7 +51,8 @@ public class homepage extends AppCompatActivity {
                 else if (id == R.id.nav_contact) {
                     // Handle the gallery action
                     Toast.makeText(homepage.this,"Contact",Toast.LENGTH_SHORT).show();
-
+                    Intent intent = new Intent(getApplicationContext(),ContactActivity.class);
+                    startActivity(intent);
                 }
 
                 DrawerLayout drawer = findViewById(R.id.drawer_layout);

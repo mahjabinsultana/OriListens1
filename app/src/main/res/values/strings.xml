@@ -11,4 +11,40 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="c1Name">American Mental Health Counselors Association</string>
+    <string name="c1Location">USA</string>
+    <string name="c1Contact">703-548-6002</string>
+
+    <string name="c2Name">National Alliance on Mental Illness</string>
+    <string name="c2Location">USA</string>
+    <string name="c2Contact">800-950-6264</string>
+
+    <string name="c3Name">Mental Health America</string>
+    <string name="c3Location">USA</string>
+    <string name="c3Contact">1-800-985-5990</string>
+
+    <string name="c4Name">Mind </string>
+    <string name="c4Location">England </string>
+    <string name="c4Contact">info@mind.org.uk</string>
+
+    <string name="c5Name">Beyond Blue</string>
+    <string name="c5Location">Australian</string>
+    <string name="c5Contact">1300 22 4636</string>
+
+    <string name="c6Name">Canadian Mental Health Association</string>
+    <string name="c6Location">Canada</string>
+    <string name="c6Contact">1-833-456-4566</string>
+
+    <string name="c7Name">Samaritans</string>
+    <string name="c7Location">United Kingdom</string>
+    <string name="c7Contact">116123</string>
+
+    <string name="c8Name">World Health Organization</string>
+    <string name="c8Location">Switzerland</string>
+    <string name="c8Contact">+41 22 791 21 11</string>
+
+
+
 </resources>

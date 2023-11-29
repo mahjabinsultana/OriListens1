@@ -7,8 +7,6 @@ import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,7 +14,6 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.OriListens.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -131,7 +128,7 @@ public class ChatRVAdapter extends RecyclerView.Adapter{
         public BotViewHolder(@NonNull View itemView) {
             super(itemView);
             botMsgTV = itemView.findViewById(R.id.idTVBot);
-            thumbnail = itemView.findViewById(R.id.videoThumbnailIV);
+            thumbnail = itemView.findViewById(R.id.image);
             cardView = itemView.findViewById(R.id.cardV);
 
         }

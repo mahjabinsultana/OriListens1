@@ -13,7 +13,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.OriListens.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -51,7 +50,7 @@ public class SecondRV_adapter extends RecyclerView.Adapter<SecondRV_adapter.View
         TextView textView;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.videoThumbnailIV);
+            imageView = itemView.findViewById(R.id.image);
             textView = itemView.findViewById(R.id.videoTitleTV);
             itemView.setOnClickListener(this);
         }

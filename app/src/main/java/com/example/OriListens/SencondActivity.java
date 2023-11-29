@@ -10,15 +10,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.example.OriListens.R;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -44,7 +41,7 @@ public class SencondActivity extends AppCompatActivity {
         textView.setText(receivedMessage);
 
 
-        recyclerView = findViewById(R.id.secondRecyclerView);
+        recyclerView = findViewById(R.id.ContactRecyclerView);
         database = FirebaseDatabase.getInstance().getReference().child("Video").child(receivedMessage);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
