@@ -103,8 +103,8 @@ public class ChatbotActivity extends AppCompatActivity {
     private void getResponse(String message){
         chatsModalArrayList.add(new ChatsModal(message, "null", USER_KEY));
         chatRVAdapter.notifyDataSetChanged();
-        String url="http://192.168.68.198:5000/chat/"+message;
-        String BASE_URL = "http://192.168.68.198:5000";
+        String url="http://192.168.0.5:5000/chat/"+message;
+        String BASE_URL = "http://192.168.0.5:5000";
         Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
         RetrofitAPI retrofitAPI = retrofit.create(RetrofitAPI.class);
         Call<MsgModal> call = retrofitAPI.getMessage(url);

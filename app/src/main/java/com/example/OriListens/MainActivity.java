@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity implements MainListener {
         mainRV_items.add(new MainRV_item(R.drawable.depression2, "Anxiety"));
         mainRV_items.add(new MainRV_item(R.drawable.depression, "Depression"));
         mainRV_items.add(new MainRV_item(R.drawable.anxiety, "Panic Attack"));
-        mainRV_items.add(new MainRV_item(R.drawable.selfcare, "Insomnia"));
-        mainRV_items.add(new MainRV_item(R.drawable.selfcare, "Stress"));
+        mainRV_items.add(new MainRV_item(R.drawable.insomnia, "Insomnia"));
+        mainRV_items.add(new MainRV_item(R.drawable.stress, "Stress"));
         mainRV_items.add(new MainRV_item(R.drawable.meditation, "Meditation"));
-        mainRV_items.add(new MainRV_item(R.drawable.selfcare, "Selfcare"));
+        mainRV_items.add(new MainRV_item(R.drawable.selfcare, "Self Care"));
 
         MainRV_adapter mainRV_adapter = new MainRV_adapter(mainRV_items, this, this );
         recyclerView.setAdapter(mainRV_adapter);

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
@@ -28,7 +29,7 @@ public class ContactActivity extends AppCompatActivity {
         setContentView(R.layout.nav_activity_contact);
         recyclerView = findViewById(R.id.ContactRecyclerView);
         recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
        contactRV_items = new ArrayList<ContactRV_item>();
 
        contactRV_items.add(new ContactRV_item(R.drawable.contact1,getString(R.string.c1Name),getString(R.string.c1Location),getString(R.string.c1Contact)));
