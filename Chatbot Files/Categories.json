@@ -1,0 +1,1555 @@
+{
+    "categories": [
+      {
+        "tag": "greeting",
+        "patterns": [
+           "Hi",
+           "Hey",
+           "How are you",
+           "How are you doing",
+           "Is anyone there?",
+           "What's up?",
+           "Hello",
+           "Hi there", "Hello", "Hey there", "Howdy", "Hola", "Ola"
+        ],
+        "responses": [
+            "Hey! Welcome to Ori.",
+            "Hi there, I'm doing well! My name's Ori, what can I do for you?",
+            "Hey there, my name's Ori, your mental health friend. How can I help you today?",
+            "Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"
+         ],
+         "url": [
+            "null"
+            ]
+       },
+       {"tag": "morning",
+         "patterns": ["Good morning"],
+         "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "],
+         "url": [
+             "null"
+          ]
+         
+     },
+     {   "tag": "afternoon",
+         "patterns": ["Good afternoon"],
+         "responses": ["Good afternoon. How is your day going?"],
+         "url": [
+             "null"
+          ]
+     },
+     {   "tag": "evening",
+         "patterns": ["Good evening"],
+         "responses": ["Good evening. How has your day been?"],
+         "url": [
+             "null"
+          ]
+     },
+     {
+         "tag": "night",
+         "patterns": ["Good night","Goodnight"],
+         "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."],
+         "url": [
+            "null"
+         ]
+     },
+     {
+         "tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "url": [
+             "null"
+          ]
+     },
+    
+    {   "tag": "neutral-response",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"],
+        "url": [
+            "null"
+         ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+           "What do you do?",
+           "Who are you?",
+           "What are you here for?",
+           "What can you help me with?",
+           "Is anyone there?",
+           "Are you a real person?",
+           "Tell me about yourself!"
+         ],
+          "responses": [
+             "Love that question! My name's Ori, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+             "Hey! I love that question! My name is Ori, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+            ],
+            "url": [
+                "null"
+             ]
+    },
+    {   "tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "name",
+        "patterns": ["My name is ", "I am name.", "I go by "],
+        "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "I need support", "I need help", "Support me please"],
+        "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "sad",
+        "patterns": ["I am feeling lonely", "I am so lonely", "I feel down", "I feel sad", "I am sad", "I feel so lonely", "I feel empty", "I don't have anyone"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?", "I'm here for you. Could you tell me why you're feeling this way?", "Why do you think you feel this way?", "How long have you been feeling this way?"],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "stressed",
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.",
+                      "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."],
+        "url": [
+            "null"
+         ]
+    },
+    {
+        "tag": "funny",
+        "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+        ],
+        "responses": [
+                "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison!",
+                "I invented a new word! Plagiarism!"
+        ],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "happy",
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great."],
+        "url": [
+            "null"
+         ]
+    },
+    {   "tag": "not-talking",
+    "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+    "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "sleep",
+    "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+    "responses": ["What do you think is the reason behind this?", "That seem awful. What do you think is behind this?"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "scared",
+    "patterns": ["I'm scared",  "No i don't want to feel this way", "I am scared for myself"],
+    "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "death",
+    "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+    "responses": ["I'm sorry to hear that. If you want to talk. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "understand",
+    "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+    "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "done",
+    "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+    "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "suicide",
+    "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide"],
+    "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 999."],
+    "url": [
+        "null"
+     ]
+}, 
+{   "tag": "hate-you",
+    "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+    "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "hate-me",
+    "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+    "responses": ["Why do you think so?", "I'm sorry if i have exhibited any sort of behaviour to make you think that."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "default",
+    "patterns": ["exams", "friends", "relationship", "boyfriend", "girlfriend", "family", "money", "financial problems"],
+    "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "repeat",
+    "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+    "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "wrong",
+    "patterns": ["What are you saying?", "That doesn't make sense", "Wrong response", "Wrong answer"],
+    "responses": ["I'm very sorry. Let's try that again"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "stupid",
+    "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+    "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "location",
+    "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+    "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "something-else",
+    "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+    "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "friends",
+    "patterns": ["I don't have any friends"],
+    "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "ask",
+    "patterns": ["Can I ask you something?"],
+    "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "problem",
+    "patterns": ["Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.", "probably because of my exams"],
+    "responses": ["I see. You can give demo exams, that might help you for preparing final exams. "],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "no-approach",
+    "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+    "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "learn-more",
+    "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
+    "responses": ["So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."],
+    "url": [
+        "null"
+     ]
+},
+
+
+
+
+
+{   "tag": "user-agree",
+"patterns": ["yeah you're right. i deserve a break.", "Yeah you're absolutely right about that"],
+"responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."],
+"url": [
+    "null"
+ ]
+},
+{   "tag": "meditation",
+"patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful."],
+"responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."],
+"url": [
+    "null"
+ ]
+},
+{   "tag": "user-meditation",
+"patterns": ["i did what you said and i feel alot better. thank you very much.", "I feel better now"],
+"responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."],
+"url": [
+    "null"
+ ]
+},
+{   "tag": "user-advice",
+"patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+"responses": ["Sure. What can I do to help?", "Okay what do you need advice on?"],
+"url": [
+    "null"
+ ]
+},
+{   "tag": "learn-mental-health",
+"patterns": ["I want to learn about mental health.", "I want to learn more about mental health.", "I'm interested in learning about mental health."],
+"responses": ["Oh that's really great. I'd be willing to answer anything that I know about it."],
+"url": [
+    "null"
+ ]
+},
+{   "tag": "fact-1",
+    "patterns": ["What is mental health?", "Define Mental Health"],
+    "responses": ["Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community", "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-2",
+    "patterns": ["Why is mental health important?", "What is the importance of mental health?"],
+    "responses": ["Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-6",
+    "patterns": ["What is a therapist?", "What does a therapist do?"],
+    "responses": ["A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-7",
+    "patterns": ["What is therapy?", "Do i need therapy?", "Who is therapy for?"],
+    "responses": ["Therapy is a form of treatment that aims to help resolve mental or emotional issues.", "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-8",
+    "patterns": ["What does it mean to have a mental illness?"],
+    "responses": ["Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-9",
+    "patterns": ["Who does mental illness affect?"],
+    "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃ¢â‚¬â„¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-10",
+    "patterns": ["What causes mental illness?"],
+    "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-11",
+    "patterns": ["What are some of the warning signs of mental illness?"],
+    "responses": ["Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n In adults:\n Confused thinking\n Long-lasting sadness or irritability\n Extreme highs and lows in mood\n Excessive fear, worrying, or anxiety\n Social withdrawal\n Dramatic changes in eating or sleeping habits\n Strong feelings of anger\n Delusions or hallucinations (seeing or hearing things that are not really there)\n Increasing inability to cope with daily problems and activities\n Thoughts of suicide\n Denial of obvious problems\n Many unexplained physical problems\n Abuse of drugs and/or alcohol\n \nIn older children and pre-teens:\n Abuse of drugs and/or alcohol\n Inability to cope with daily problems and activities\n Changes in sleeping and/or eating habits\n Excessive complaints of physical problems\n Defying authority, skipping school, stealing, or damaging property\n Intense fear of gaining weight\n Long-lasting negative mood, often along with poor appetite and thoughts of death\n Frequent outbursts of anger\n \nIn younger children:\n Changes in school performance\n Poor grades despite strong efforts\n Excessive worrying or anxiety\n Hyperactivity\n Persistent nightmares\n Persistent disobedience and/or aggressive behavior\n Frequent temper tantrums"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-12",
+    "patterns": ["Can people with mental illness recover?"],
+    "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-13",
+    "patterns": ["What should I do if I know someone who appears to have the symptoms of a mental disorder?"],
+    "responses": ["Although Pandora cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-14",
+    "patterns": ["How can I find a mental health professional for myself or my child?"],
+    "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-15",
+    "patterns": ["What treatment options are available?"],
+    "responses": ["Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-16",
+    "patterns": ["If I become involved in treatment, what do I need to know?"],
+    "responses": ["Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:\n What is known about the cause of this particular illness?\n Are there other diagnoses where these symptoms are common?\n Do you normally include a physical or neurological examination?\n Are there any additional tests or exams that you would recommend at this point?\n Would you advise an independent opinion from another psychiatrist at this point?\n What program of treatment is the most helpful with this diagnosis?\n Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?\n What do you see as the family's role in this program of treatment?\n How much access will the family have to the individuals who are providing the treatment?\n What medications are generally used with this diagnosis?\n How much experience do you have in treating individuals with this illness?\n What can I do to help you in the treatment?"],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-17",
+    "patterns": ["What is the difference between mental health professionals?"],
+    "responses": ["There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-18",
+    "patterns": ["How can I find a mental health professional right for my child or myself?"],
+    "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-19",
+    "patterns": ["Where else can I get help?"],
+    "responses": ["Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-20",
+    "patterns": ["What should I know before starting a new medication?"],
+    "responses": ["The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-21",
+    "patterns": ["Where can I go to find therapy?"],
+    "responses": ["Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenâ€™s mental health). However, there are several different types of treatment and therapy that can help."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-22",
+    "patterns": ["Where can I learn about types of mental health treatment?"],
+    "responses": ["Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-23",
+    "patterns": ["What are the different types of mental health professionals?"],
+    "responses": ["There are many types of mental health professionals. Finding the right one for you may require some research."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-24",
+    "patterns": ["Where can I go to find a support group?"],
+    "responses": ["Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-25",
+    "patterns": ["Can you prevent mental health problems?"],
+    "responses": ["We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-26",
+    "patterns": ["Are there cures for mental health problems?", "is there any cure for mental health problems?"],
+    "responses": ["It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-27",
+    "patterns": ["What causes mental health problems?"],
+    "responses": ["Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-28",
+    "patterns": ["What do I do if I'm worried about my mental health?"],
+    "responses": ["The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."],
+    "url": [
+        "null"
+     ]
+},
+{"tag": "fact-29",
+    "patterns": ["How do I know if I'm unwell?"],
+    "responses": ["If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-30",
+    "patterns": ["How can I maintain social connections? What if I feel lonely?"],
+    "responses": ["A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."],
+    "url": [
+        "null"
+     ]
+},
+{   "tag": "fact-31",
+    "patterns": ["What's the difference between anxiety and stress?"],
+    "responses": ["Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."],
+    "url": [
+        "null"
+    ]
+},
+{   "tag": "fact-32",
+    "patterns": ["What's the difference between sadness and depression?", "difference between sadness and depression"],
+    "responses": ["Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."],
+    "url": [
+        "null"
+     ]
+},
+
+
+
+
+{ "tag": "anxiety-info",
+ "patterns": ["What is anxiety?", "Tell me about anxiety", 
+             "Can I have some information about anxiety?",
+             "Can you explain what anxiety is?",
+            "How would you define anxiety?",
+            "Can you provide information about anxiety?"
+            ],
+ "responses": ["Anxiety is a natural response to stress or a perceived threat. It's a feeling of fear, worry, or unease, often about an upcoming event or something with an uncertain outcome.",
+           "Anxiety is an emotional and physiological response to stress, characterized by feelings of worry, apprehension, or fear about future events. It's a natural and common human experience.",
+           "Anxiety is a natural response to stress, characterized by feelings of apprehension, tension, and worry. It becomes a concern when these feelings are excessive or persistent.",
+        "Anxiety is a normal human emotion that involves feelings of unease, nervousness, or fear. It can range from mild to severe and is often triggered by stress or uncertainty.",
+        "In simple terms, anxiety is the body's natural response to stress. It's a feeling of fear or apprehension about what's to come. It becomes a disorder when it interferes with daily life.",
+        "Anxiety is a broad term encompassing various mental health conditions characterized by excessive worry, fear, or nervousness. It's essential to distinguish between normal anxiety and anxiety disorders."
+        ],
+  "url": [
+    "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BVJkf8IuRjE?si=48fGgIZyGMZ81Dyo&amp;start=150\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},   
+{
+    "tag": "anxiety-symptoms-sign",
+    "patterns": [
+        "What are the symptoms of anxiety?",
+        "What are the signs of anxiety?",
+        "Can you list common signs of anxiety?",
+        "How does anxiety manifest in individuals?",
+        "How do I know if I'm experiencing anxiety?",
+        "Can you describe the symptoms of anxiety?",
+        "Are there physical symptoms of anxiety?",
+        "What are the emotional signs of anxiety?",
+        "What is the symbol of anxiety?"
+    ],
+    "responses": [
+        "Common symptoms of anxiety include restlessness, excessive worry, muscle tension, fatigue, difficulty concentrating, irritability, and sleep disturbances.",
+        "Anxiety can manifest in various ways, such as increased heart rate, sweating, trembling, and a sense of impending doom. Emotional symptoms may include feelings of dread or unease.",
+        "Symptoms of anxiety may include both physical manifestations like a racing heart or upset stomach, and emotional signs such as constant worry or fear of the future.",
+        "Physical symptoms of anxiety may include headaches, stomachaches, and muscle tension, while emotional signs can involve excessive fear, nervousness, and a sense of impending danger.",
+        "Emotional signs of anxiety encompass excessive worry, fear, irritability, and a sense of restlessness. Physical symptoms may include trembling, sweating, and a racing heart."
+    ],
+    "url": ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9mPwQTiMSj8?si=YYCKoXiD6FGS547b\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"]
+},
+{
+    "tag": "anxiety-cause",
+    "patterns": [
+        "What causes anxiety?",
+        "Can you explain the factors contributing to anxiety?",
+        "How do life events affect the development of anxiety?",
+        "What is the cause or reason for anxiety?",
+        "Why do people experience anxiety?",
+        "Can you elaborate on the reasons for anxiety?",
+        "What factors contribute to the development of anxiety?",
+        "Are there specific triggers for anxiety?",
+        "How does one develop anxiety?",
+        "How does stress affect mental health?"
+    ],
+    "responses": [
+        "People experience anxiety due to a combination of genetic predisposition, environmental stressors, and individual life experiences. Understanding these factors is crucial in managing and addressing anxiety.",
+        "The reasons for anxiety are diverse and can include genetic factors, environmental stressors, trauma, and imbalances in brain chemistry. Exploring these aspects with a mental health professional can provide valuable insights.",
+        "Various factors contribute to the development of anxiety, such as a family history of anxiety disorders, exposure to chronic stress, and individual temperament. Identifying these factors is essential for effective treatment.",
+        "Triggers for anxiety can be individualized, ranging from specific situations to ongoing stressors. Recognizing and addressing these triggers is key to managing and reducing anxiety.",
+        "The development of anxiety is influenced by a combination of genetic susceptibility and environmental factors. Understanding the unique interplay of these elements is important for effective treatment and coping strategies."
+        
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "anxiety-diagnosis-cure",
+    "patterns": [
+        "How is anxiety diagnosed?",
+        "What do professionals do to diagnose anxiety?",
+        "Can you explain the process of anxiety diagnosis?",
+        "Are there tests for diagnosing anxiety?",
+        "How can I overcome anxiety?",
+        "What helps in beating anxiety?",
+        "what is the remedies for anxiety",
+        "Any tips for managing anxiety?",
+        "How to deal with anxiety?",
+        "How is anxiety diagnosed?",
+        "Can you explain the process of anxiety diagnosis?"
+    ],
+    "responses": [
+        "Anxiety is diagnosed through conversations with a mental health professional who considers your symptoms, experiences, and may use standardized tools to assess severity.",
+        "Diagnosing anxiety involves talking to a mental health professional who assesses your symptoms, medical history, and their impact on your daily life.",
+        "Professionals diagnose anxiety by evaluating your emotional and physical well-being. They use established criteria to understand and address your unique experience.",
+        "Tests for anxiety aren't like traditional medical tests. Diagnosis is based on discussions with a mental health professional to understand your feelings and experiences."
+    ],
+    "url": ["<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/30VMIEmA114?si=ERSdawn5yGCo1iEe\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ah4Hnrz3CDg?si=U0tbSD9W7i23CcCl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VRxOmosteCc?si=1sSXgYyynZVPxkmS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ttHu_N-zAnQ?si=6KqjDK0mdEBk0up_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/O-6f5wQXSu8?si=UI7iw6J8vnzc8uQr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"        
+    ]
+},
+{
+    "tag": "anxiety-types",
+    "patterns": [
+        "What are the different types of anxiety?",
+        "Can you list some variations of anxiety?",
+        "Are there specific categories of anxiety?",
+        "How is anxiety classified into different types?",
+        "Can you explain the various forms of anxiety?"
+    ],
+    "responses": [
+        "Different types of anxiety include generalized anxiety disorder (GAD), social anxiety disorder, panic disorder, specific phobias, and separation anxiety disorder.",
+        "Anxiety is classified into various types, such as generalized anxiety disorder, social anxiety disorder, panic disorder, specific phobias, and agoraphobia.",
+        "Categories of anxiety encompass generalized anxiety disorder (GAD), social anxiety disorder, panic disorder, specific phobias, and separation anxiety disorder.",
+        "Anxiety is classified into different types, including generalized anxiety disorder (GAD), social anxiety disorder, panic disorder, specific phobias, and agoraphobia.",
+        "Various forms of anxiety include generalized anxiety disorder (GAD), social anxiety disorder, panic disorder, specific phobias, and separation anxiety disorder, each with distinct characteristics and symptoms."
+    ],
+    "url": ["null"]
+},
+{
+        "tag": "anxiety-i-have-anxiety",
+        "patterns": [
+                "I think I have anxiety",
+                "How do I support a loved one with anxiety?",
+                "How do I fix my anxiety?",
+                "I feel so anxious.", "I'm so anxious because of ", "I am feeling anxious"
+        ],
+        "responses": [
+                "Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"
+        ],
+        "url": [
+            "null"
+         ]
+},
+
+
+
+
+
+
+{   "tag": "fact-3",
+    "patterns": ["What is Depression?", "Define Depression","Tell me about depression","Can I have some information about depression?"],
+    "responses": ["A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Oh_SSc492Ac?si=5pb9aOlZ55FFx_FA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/z-IR48Mb3W0?si=lNH3agV1LoohOnzO\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{   "tag": "fact-5",
+    "patterns": ["How do i know if i have Depression?", "Am i depressed?", "Am i suffering from depression?", "Am i mentally ill?"],
+    "responses": ["For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."],
+    "url": [
+        "null"
+    ]
+},
+{
+    "tag": "depression-i-have-depression",
+    "patterns": [
+            "I think I have depression",
+            "How do I support a loved one with depression?",
+            "How do I fix my depression?",
+            "I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression",
+            "I feel overwhelmed by everything.",
+            "It's too much for me to handle right now.",
+            "I'm feeling really down today.",
+            "I don't know if I can go on like this.",
+            "I've been struggling, and I can't figure out why."
+    ],
+    "responses": [
+            "It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+            "Feeling overwhelmed is tough. Take a deep breath and consider reaching out to someone for support. You're not alone in this.",
+            "I'm sorry to hear that you're feeling down. It's okay to acknowledge your feelings and take the time you need to care for yourself.",
+            "It sounds like you're going through a tough time. Remember, it's okay to ask for help. You don't have to face it alone."
+    ],
+    "url": [
+        "null"
+     ]
+},
+{
+    "tag": "depression-cure-treatment",
+    "patterns": [
+        "Can depression be cured?",
+        "Is medication always necessary for treating depression?",
+        "Are there any self-help strategies for managing depression?",
+        "How long does depression treatment usually take?"
+    ],
+    "responses": [
+        "While there is no absolute cure for depression, effective treatments exist. Therapy, medication, lifestyle changes, and support can significantly improve symptoms and quality of life.",
+        "Medication is not always necessary, but it can be beneficial, especially for moderate to severe depression. Consult with a healthcare professional to explore the best treatment options for your situation.",
+        "Self-help strategies for managing depression include regular exercise, maintaining a healthy diet, getting enough sleep, and engaging in activities that bring joy. However, professional help is crucial for more severe cases.",
+        "The duration of depression treatment varies. Some may see improvement in a few weeks, while others may require months. Consistency and collaboration with a healthcare professional are key."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xRxT9cOKiM8?si=3rFXmfHicHz6zR-p\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8WtAA8daRr8?si=ro6sjJqFz3UiFTw0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/C_JkK4ifbQs?si=xvXR7yEQW55Ujh4H\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "depression5",
+    "patterns": [
+        "I feel so overwhelmed.",
+        "Everything feels pointless.",
+        "I don't enjoy things like I used to.",
+        "Why do I always feel tired?",
+        "Life seems empty to me."
+    ],
+    "responses": [
+        "It's okay to feel such. Consider talking to someone you trust or a mental health professional. You can give time in your favourite works.",
+        "When everything feels such, it can be helpful to break tasks into smaller, more manageable steps. Reach out for support.",
+        "A lack of enjoyment in activities can be a sign of depression.Consider talking to someone you trust or a mental health professional.",
+        "Feeling such all the time can be a symptom of depression. It's important to talk to a healthcare professional to understand and address the underlying causes.",
+        "If life seems such, consider reaching out to friends, family, or a therapist. They can provide support and help you explore new perspectives."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-symbol",
+    "patterns": [
+        "What are the common signs of depression?",
+        "Can you tell me more about the symptoms of depression?",
+        "How do I know if I'm experiencing depression?",
+        "Are there physical symptoms of depression?",
+        "What are the emotional signs of depression?"
+    ],
+    "responses": [
+        "Common signs of depression include persistent sadness, changes in appetite or weight, sleep disturbances, fatigue, feelings of worthlessness or guilt, difficulty concentrating, and thoughts of death or suicide.",
+        "Depression symptoms can vary, but they often include persistent feelings of sadness, loss of interest in activities, changes in sleep and appetite, fatigue, and difficulty concentrating.",
+        "If you're experiencing persistent feelings of sadness, loss of interest, changes in sleep or appetite, and difficulty concentrating, it's important to consult with a mental health professional for an evaluation.",
+        "Physical symptoms of depression may include headaches, digestive issues, and body aches. It's essential to consider both emotional and physical well-being when assessing depressive symptoms.",
+        "Emotional signs of depression encompass persistent feelings of sadness, hopelessness, worthlessness, and a lack of interest or pleasure in activities that were once enjoyable."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-cause",
+    "patterns": [
+        "What causes depression?",
+        "Can you elaborate on the factors that lead to depression?",
+        "What are the underlying causes of depression?",
+        "What are the primary reasons behind the development of depression?",
+        "What factors play a role in causing depression?",
+        "Why do people get depressed?",
+        "What makes someone experience depression?",
+        "Can you tell me why depression happens?",
+        "What leads to the development of depression?",
+        "Why might someone suffer from depression?"
+    ],
+    "responses": [
+        "Depression is a complex condition influenced by genetic predisposition, life experiences, and imbalances in brain chemicals.",
+        "The causes of depression can range from genetic factors and brain chemistry imbalances to significant life stressors and traumatic experiences.",
+        "Understanding depression involves exploring genetic susceptibility, environmental triggers, and the impact of life events on mental well-being.",
+        "Various factors contribute to depression, including a combination of genetic, biological, environmental, and psychological elements.",
+        "Depression results from a combination of genetic, environmental, and psychological factors that can affect the brain's neurotransmitter balance.",
+        "People may experience depression due to a mix of genetic susceptibility, life challenges, and chemical imbalances in the brain.",
+        "Depression can be triggered by genetic factors, life events, and an imbalance of neurotransmitters in the brain.",
+        "The occurrence of depression is influenced by a combination of genetic, environmental, and individual factors that affect mental health.",
+        "The development of depression is multifaceted, involving genetics, life experiences, and the interplay of various environmental factors.",
+        "Depression can stem from genetic predisposition, environmental stressors, and the way individuals perceive and cope with life challenges."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-prevent",
+    "patterns": [
+        "Can depression be prevented?",
+        "Are there ways to avoid developing depression?",
+        "What preventive measures exist for depression?",
+        "Is there anything one can do to stop depression from occurring?",
+        "Can a person take steps to prevent depression?"
+    ],
+    "responses": [
+        "While depression may not always be preventable, certain lifestyle choices and coping strategies can contribute to overall mental well-being.",
+        "Preventing depression involves adopting healthy habits, seeking support when needed, and maintaining a positive outlook on life.",
+        "Although complete prevention may not be guaranteed, engaging in regular exercise, managing stress, and fostering social connections can lower the risk of depression.",
+        "Taking proactive steps, such as practicing self-care, building resilience, and addressing stressors, can contribute to preventing depression.",
+        "While there's no foolproof way to prevent depression, incorporating self-care routines, seeking help early on, and building a support system can be beneficial."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-affect-body",
+    "patterns": [
+        "Can depression affect physical health?",
+        "How does depression influence the body?",
+        "Are there physical consequences of depression?",
+        "What impact can depression have on overall health?",
+        "Can depression manifest in physical symptoms?",
+        "How does depression affect mental health?"
+    ],
+    "responses": [
+        "Yes, depression can affect physical health. It may manifest in changes to appetite, sleep patterns, and can exacerbate existing health conditions.",
+        "Depression can influence the body in various ways, impacting energy levels, immune function, and contributing to physical symptoms such as headaches or digestive issues.",
+        "The physical consequences of depression may include fatigue, changes in weight, sleep disturbances, and increased susceptibility to illnesses.",
+        "Depression can have a significant impact on overall health, affecting physical well-being and potentially worsening existing medical conditions.",
+        "Absolutely, depression can manifest in physical symptoms, such as muscle tension, headaches, and changes in bodily functions, highlighting the mind-body connection."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-type",
+    "patterns": [
+        "What are the different types of depression?",
+        "Can you explain the various forms of depression?",
+        "Are there specific categories of depression?",
+        "How is depression classified into different types?",
+        "Can you list some variations of depression?"
+    ],
+    "responses": [
+        "There are various types of depression, including major depressive disorder (MDD), persistent depressive disorder (dysthymia), bipolar disorder, seasonal affective disorder (SAD), and postpartum depression.",
+        "Depression is classified into different types, such as major depressive disorder, which involves persistent low mood, and bipolar disorder, characterized by alternating depressive and manic episodes.",
+        "Categories of depression include major depressive disorder, persistent depressive disorder (dysthymia), bipolar disorder, seasonal affective disorder, and atypical depression.",
+        "Depression is categorized into major depressive disorder, bipolar disorder, persistent depressive disorder, and other specific forms, each with unique characteristics and symptoms.",
+        "Various forms of depression include major depressive disorder, bipolar disorder, seasonal affective disorder, and atypical depression, each with its distinct set of symptoms and patterns."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "depression-treatment-overcome-diagnosis",
+    "patterns": [
+        "What are the treatment options for depression?",
+        "Can you explain the various ways to treat depression?",
+        "How is depression typically treated?",
+        "Are there specific methods for treating depression?",
+        "Can you list some common approaches to depression treatment?",
+        "How can i overcome depression?",
+        "What are some strategies for overcoming depression?",
+        "Can i provide tips for overcoming depression?",
+        "Are there specific steps to take when overcoming depression?",
+        "How do people successfully overcome depression?",
+        "How is depression diagnosed?",
+        "What is the process of diagnosing depression?",
+        "Are there specific criteria for diagnosing depression?"
+    ],
+    "responses": [
+        "Treatment for depression may include therapy (cognitive-behavioral therapy, psychotherapy), medication (antidepressants), lifestyle changes, and support from loved ones.",
+        "Depression is typically treated through a combination of therapy, medication, and lifestyle adjustments. Common therapeutic approaches include cognitive-behavioral therapy (CBT) and psychodynamic therapy.",
+        "Common approaches to depression treatment involve a combination of therapy, medication, and lifestyle changes. Therapeutic methods may include cognitive-behavioral therapy (CBT), interpersonal therapy, and medication such as antidepressants.",
+        "Depression is treated through various methods, including therapy, medication, and lifestyle changes. Specific interventions may include cognitive-behavioral therapy (CBT), antidepressant medication, and stress management techniques.",
+        "The treatment for depression often includes a combination of therapy, medication, and lifestyle adjustments. Cognitive-behavioral therapy (CBT) and antidepressant medication are commonly used methods.",
+        "Overcoming depression often involves a combination of therapy, medication, and self-care. Seeking professional help is crucial for tailored guidance.",
+        "Strategies for overcoming depression include engaging in activities you enjoy, building a support system, practicing self-compassion, and setting achievable goals.",
+        "Tips for overcoming depression include maintaining a routine, reaching out for support, engaging in physical activity, and fostering positive relationships.",
+        "Specific steps to take when overcoming depression may include attending therapy sessions regularly, following prescribed medication plans, and actively participating in self-care activities.",
+        "Successful overcoming of depression often involves a comprehensive approach, combining therapy, medication, and lifestyle changes. It's important to work closely with healthcare professionals throughout the process."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xRxT9cOKiM8?si=3rFXmfHicHz6zR-p\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8WtAA8daRr8?si=ro6sjJqFz3UiFTw0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/C_JkK4ifbQs?si=xvXR7yEQW55Ujh4H\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+
+
+
+
+{
+    "tag": "panic-attack-what-is-it",
+    "patterns": [
+        "What exactly is a panic attack?",
+        "Can you clarify what a panic attack is?",
+        "How would you describe a panic attack?",
+        "Can you give me information about panic attacks?",
+        "What happens during a panic attack?"
+    ],
+    "responses": [
+        "A panic attack is a sudden and intense episode of fear or anxiety, often accompanied by physical symptoms like a pounding heart, trembling, and a feeling of impending danger.",
+        "A panic attack is defined as a brief but intense surge of fear or discomfort, typically with symptoms such as a racing heart, shortness of breath, and a sense of losing control.",
+        "Describing a panic attack involves understanding it as a sudden onset of overwhelming fear or anxiety, marked by symptoms like increased heart rate, sweating, and a sense of dread.",
+        "Information about panic attacks includes the recognition of sudden and intense periods of fear, accompanied by physical symptoms such as chest pain, dizziness, and a fear of dying.",
+        "During a panic attack, an individual may experience a sudden and intense bout of anxiety, often with symptoms like a racing heart, trembling, and a feeling of impending doom."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/16XD6zP_d8M?si=v2sOlVh2r0OE-Gr8\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "panic-attack-symbol-sign",
+    "patterns": [
+        "What are the signs of a panic attack?",
+        "What are the symbol of a panic attack?",
+        "How can I identify if I'm having a panic attack?",
+        "Are there specific symbols of a panic attack?",
+        "Can you list the indicators of a panic attack?",
+        "How do I recognize when a panic attack is happening?",
+        "How does panic attack affect mental health?"
+    ],
+    "responses": [
+        "Signs of a panic attack include a rapid heart rate, shortness of breath, trembling, chest pain, and a feeling of impending doom. It's essential to seek support if you experience these symptoms.",
+        "You can identify a panic attack by recognizing symptoms such as a pounding heart, sweating, trembling, and a sense of fear or impending danger. Seeking help is crucial if you experience these signs.",
+        "Symbols of a panic attack include physical and cognitive symptoms like increased heart rate, sweating, and a sense of impending doom. Recognizing these signs is key to managing panic attacks.",
+        "Indicators of a panic attack may include a racing heart, difficulty breathing, chest pain, and a feeling of losing control. It's important to be aware of these symptoms and seek assistance if needed.",
+        "Recognizing a panic attack involves being aware of symptoms like rapid heart rate, trembling, and a sense of impending doom. If you experience these signs, consider reaching out for support."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ya1HfNY7898?si=IXPJTi-vwS8NAB46\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "panic-attack-causes",
+    "patterns": [
+        "What causes panic attacks?",
+        "Can you explain the factors that lead to panic attacks?",
+        "How do life events contribute to panic attacks?",
+        "Are there genetic factors associated with panic attacks?"
+    ],
+    "responses": [
+        "Panic attacks can be caused by a combination of factors, including genetic predisposition, high-stress levels, trauma, and imbalances in brain chemicals.",
+        "Various factors contribute to the occurrence of panic attacks, such as a family history of anxiety disorders, exposure to chronic stress, and individual temperament.",
+        "Life events, especially significant stressors or traumas, can contribute to the development of panic attacks. Seeking support during challenging times is crucial for mental well-being.",
+        "Genetics can play a role in panic attacks. If close family members have experienced panic attacks, there may be an increased risk. However, environmental factors also contribute."
+       
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "panic-attack-treatement-cure-overcome",
+    "patterns": [
+        "How can I treat panic attacks?",
+        "How can I overcome panic attacks?",
+        "Is there a cure for panic attacks?",
+        "Can panic attacks be prevented?",
+        "What helps in treating panic attacks?",
+        "Are there ways to stop panic attacks?"
+    ],
+    "responses": [
+        "Treating panic attacks often involves therapy, medication, and lifestyle changes. Seeking professional help is important for effective treatment.",
+        "While there's no cure, effective treatments like therapy and medication can help manage and reduce the impact of panic attacks on daily life.",
+        "Preventing panic attacks includes identifying triggers, practicing stress management, and seeking early support. Lifestyle changes also play a role in prevention.",
+        "Treatment options for panic attacks may include therapy, medications, and self-care practices. It's essential to work with healthcare professionals to find the right approach for you.",
+        "To stop panic attacks, individuals can learn relaxation techniques, identify triggers, and seek support. Early intervention is key to preventing future episodes."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5ksC0Yl348o?si=fPfkAlfKJm3jMqxv\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pJCpZBIedrw?si=LIu9QXbhAarL_Q0I\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YIlDiZzW7lw?si=8q33RKHtidgwh8tY\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vXZ5l7G6T2I?si=MZ79ff4qPinCiaZZ\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "panic-attack-types",
+    "patterns": [
+        "What are the different types of panic attacks?",
+        "Can you list some variations of panic attacks?",
+        "Are there specific categories of panic attacks?",
+        "How is panic attack classified into different types?",
+        "Can you explain the various forms of panic attacks?"
+    ],
+    "responses": [
+        "Different types of panic attacks include spontaneous attacks and situationally bound attacks. They can vary in intensity and duration.",
+        "Panic attacks can be categorized into different types, such as spontaneous attacks that occur unexpectedly and situationally bound attacks triggered by specific situations.",
+        "Categories of panic attacks encompass unexpected or spontaneous attacks and situationally bound attacks triggered by specific situations or stimuli.",
+        "Panic attacks are classified into different types, including unexpected or spontaneous attacks and situationally bound attacks that are triggered by specific situations or events.",
+        "Various forms of panic attacks include spontaneous attacks that occur without an obvious trigger and situationally bound attacks triggered by specific situations or stimuli."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "panic-attack-prevent",
+    "patterns": [
+        "How can I prevent panic attacks?",
+        "Are there ways to stop panic attacks from happening?",
+        "What can I do to avoid panic attacks?",
+        "Can panic attacks be prevented with certain strategies?",
+        "What are effective methods for preventing panic attacks?"
+    ],
+    "responses": [
+        "Preventing panic attacks involves identifying triggers, practicing relaxation techniques, and maintaining a healthy lifestyle. Seeking support and early intervention are key.",
+        "To stop panic attacks from happening, learn and practice relaxation techniques, identify triggers, and seek support from mental health professionals. Early intervention is crucial.",
+        "Avoiding panic attacks includes recognizing triggers, practicing stress management techniques, and seeking support. Lifestyle changes like regular exercise and adequate sleep can also be beneficial.",
+        "Preventing panic attacks can be achieved through strategies like identifying triggers, engaging in regular exercise, practicing relaxation techniques, and seeking professional support when needed.",
+        "Effective methods for preventing panic attacks include understanding triggers, adopting stress management techniques, and maintaining a balanced lifestyle. Seeking early intervention is essential for successful prevention."
+    ],
+    "url": ["null"]
+},
+
+
+
+
+
+
+{
+    "tag": "insomnia-what-is-it",
+    "patterns": [
+        "What is insomnia?",
+        "tell me about insomnia?",
+        "Can you define insomnia?",
+        "How would you describe insomnia?",
+        "What are the characteristics of insomnia?",
+        "Explain what insomnia is."
+    ],
+    "responses": [
+        "Insomnia is a sleep disorder characterized by difficulty falling asleep, staying asleep, or experiencing non-refreshing sleep. It can lead to fatigue, impaired daytime functioning, and mood disturbances. If you're consistently having trouble sleeping, it's advisable to seek guidance from a healthcare professional.",
+        "Insomnia is a sleep disorder where individuals face difficulty falling asleep, staying asleep, or achieving restorative sleep. It often results in daytime fatigue and can impact overall well-being. Consulting with a healthcare professional is recommended for persistent sleep issues.",
+        "Describing insomnia involves understanding it as a sleep disorder marked by challenges in falling or staying asleep, leading to daytime impairment. Seeking professional guidance is crucial if you're dealing with persistent sleep difficulties.",
+        "Insomnia is characterized by persistent difficulties in initiating or maintaining sleep, resulting in daytime dysfunction. If you're experiencing ongoing sleep problems, it's important to consult with a healthcare professional for evaluation and support.",
+        "Insomnia refers to a sleep disorder characterized by difficulties in falling asleep, staying asleep, or experiencing restful sleep. If you find yourself consistently struggling with sleep, consider seeking advice from a healthcare professional for personalized assistance."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "insomnia-types",
+    "patterns": [
+        "What are the types of insomnia?",
+        "Can you list the variations of insomnia?",
+        "Are there specific categories of insomnia?",
+        "How is insomnia classified into different types?",
+        "Can you explain the various forms of insomnia?"
+    ],
+    "responses": [
+        "Insomnia can be categorized into different types, including transient insomnia (lasting a few nights), acute insomnia (short-term), and chronic insomnia (persistent, lasting for weeks or months). Each type may have different underlying causes and treatment approaches.",
+        "Types of insomnia include transient insomnia (lasting a few nights), acute insomnia (short-term), and chronic insomnia (persisting for weeks or months). Understanding these variations helps tailor appropriate interventions.",
+        "Categories of insomnia encompass transient insomnia (brief episodes), acute insomnia (short-term), and chronic insomnia (persistent). Recognizing these types is important for determining suitable treatment strategies.",
+        "Insomnia is classified into different types, such as transient insomnia (short-term), acute insomnia (lasting a few weeks), and chronic insomnia (persisting for months). Each type may have distinct causes and management approaches.",
+        "Various forms of insomnia include transient insomnia (lasting a few nights), acute insomnia (short-term), and chronic insomnia (persisting for an extended period). Identifying the specific type is crucial for effective intervention."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "insomnia-sign-symbol",
+    "patterns": [
+        "What are the signs of insomnia?",
+        "How can I identify if I have insomnia?",
+        "Are there specific symbols of insomnia?",
+        "Can you list the indicators of insomnia?",
+        "What are the identifiers of insomnia?",
+        "How does insomnia affect mental health?"
+    ],
+    "responses": [
+        "Signs of insomnia include difficulty falling asleep, waking up frequently during the night, waking up too early, and experiencing non-refreshing sleep. Persistent daytime fatigue and impaired functioning are also common indicators. If you notice these signs, it's advisable to consult with a healthcare professional.",
+        "You can identify insomnia if you consistently struggle with falling asleep, wake up frequently during the night, or experience early morning awakenings. Non-refreshing sleep and persistent daytime fatigue are additional indicators. Seeking guidance from a healthcare professional is recommended.",
+        "Symbols of insomnia encompass difficulty falling asleep, frequent nighttime awakenings, early morning awakenings, and non-refreshing sleep. Identifying these indicators is crucial for recognizing potential sleep issues. Consulting with a healthcare professional is advisable.",
+        "Indicators of insomnia may include trouble falling asleep, waking up often during the night, early morning awakenings, and non-refreshing sleep. If you're experiencing these signs regularly, seeking advice from a healthcare professional is recommended.",
+        "Identifiers of insomnia include difficulty falling asleep, waking up frequently during the night, early morning awakenings, and non-refreshing sleep. If you notice these indicators consistently, it's advisable to consult with a healthcare professional for evaluation and support."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "insomnia-cause-reason",
+    "patterns": [
+        "What causes insomnia?",
+        "What is the reason of insomnia?",
+        "Can you explain the factors that lead to insomnia?",
+        "How do life events contribute to insomnia?",
+        "Are there specific triggers for insomnia?"
+    ],
+    "responses": [
+        "Insomnia can be caused by various factors, including stress, anxiety, depression, irregular sleep schedules, and certain medications. Identifying and addressing these underlying causes is crucial for effective management.",
+        "Various factors contribute to insomnia, such as stress, anxiety, depression, irregular sleep patterns, and the use of stimulants. Understanding and addressing these factors are key to managing insomnia effectively.",
+        "Life events, especially stressful situations, can contribute to the development of insomnia. Changes in work, relationships, or environment may impact sleep patterns. Seeking support during challenging times is important.",
+        "Triggers for insomnia may include stress, anxiety, depression, and disruptions in daily routines. Identifying and managing these triggers can help in alleviating insomnia symptoms."
+       
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/j5Sl8LyI7k8?si=guSJYXLlpDMO_g5w\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "insomnia-overcome-treatment",
+    "patterns": [
+        "How is insomnia treated?",
+        "Is there a cure for insomnia?",
+        "Can you overcome insomnia?",
+        "What are the methods for overcoming insomnia?",
+        "How is insomnia diagnosed?"
+    ],
+    "responses": [
+        "Insomnia is often treated through a combination of cognitive-behavioral therapy (CBT), sleep hygiene practices, and, in some cases, medication. While there may not be a complete cure, effective management is possible with the right strategies.",
+        "While there may not be a definitive cure for insomnia, effective treatments include cognitive-behavioral therapy (CBT), sleep hygiene improvements, and sometimes medication. Managing and reducing symptoms is a realistic goal.",
+        "Overcoming insomnia involves adopting healthy sleep habits, addressing underlying causes such as stress or anxiety, and sometimes seeking professional help. While a complete cure may not be guaranteed, significant improvement is possible.",
+        "Methods for overcoming insomnia include establishing a consistent sleep routine, creating a comfortable sleep environment, and addressing factors like stress. Cognitive-behavioral therapy (CBT) is often effective. Seeking professional guidance is advisable.",
+        "Insomnia is diagnosed through a thorough evaluation of sleep patterns, medical history, and, in some cases, sleep studies. Identifying underlying causes, such as stress or medical conditions, is essential for effective treatment."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LUt42r5-5AE?si=Fo5QSCZty6mbS8qm\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IDs40y11XqI?si=huPjPh8WKQ2Z4AJC\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CEzHE4pmLTk?si=p0GmwKrMsQ-3meHA\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fk-_SwHhLLc?si=Nb1IrY3iKuE1n555\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "insomnia-prevent",
+    "patterns": [
+        "How can insomnia be prevented?",
+        "Are there strategies to avoid insomnia?",
+        "What preventive measures can be taken for insomnia?",
+        "Can you provide tips for preventing insomnia?",
+        "How to avoid developing insomnia?"
+    ],
+    "responses": [
+        "Preventing insomnia involves maintaining a consistent sleep schedule, creating a relaxing bedtime routine, avoiding stimulants before bedtime, and ensuring a comfortable sleep environment. Regular exercise and stress management also contribute to better sleep hygiene.",
+        "Strategies to avoid insomnia include establishing a regular sleep routine, limiting caffeine and electronic device use before bedtime, and managing stress through relaxation techniques. Adopting these practices can promote better sleep.",
+        "To prevent insomnia, consider maintaining a consistent sleep schedule, creating a calming bedtime routine, and avoiding stimulating activities before sleep. A comfortable sleep environment and stress management also contribute to preventing insomnia.",
+        "Preventive measures for insomnia include practicing good sleep hygiene, such as maintaining a regular sleep schedule, creating a comfortable sleep environment, and managing stress through relaxation techniques or meditation.",
+        "Tips for preventing insomnia include establishing a consistent sleep routine, avoiding heavy meals and caffeine close to bedtime, and creating a relaxing bedtime environment. Managing stress through mindfulness or relaxation exercises is also beneficial."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WVPtF7gr1jw?si=MxhSkXhDy3vbaJe3\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+
+
+
+
+
+
+{
+    "tag": "stress-what-is-it",
+    "patterns": [
+        "What is stress?",
+        "Can you define stress?",
+        "How would you describe stress?",
+        "What are the characteristics of stress?",
+        "Explain what stress is.",
+        "Tell me about stress."
+    ],
+    "responses": [
+        "Stress is the body's natural response to a perceived threat or challenge. It triggers the 'fight or flight' response, releasing hormones like cortisol and adrenaline to prepare the body for action. While short-term stress can be motivating, chronic stress can have negative effects on physical and mental health.",
+        "Stress is the body's way of responding to pressure or demands. When we encounter a situation we perceive as a threat, the 'fight or flight' response is activated, releasing hormones like cortisol and adrenaline. Managing stress is crucial for overall health and resilience.",
+        "In simple terms, stress is the body's response to changes that require an adjustment or response. It can manifest physically, emotionally, or mentally. Understanding and managing stress is essential for maintaining a healthy balance in our lives."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "stress-types",
+    "patterns": [
+        "What are the types of stress?",
+        "Can you list different forms of stress?",
+        "Are there specific categories of stress?",
+        "How is stress classified into different types?",
+        "Can you explain the various forms of stress?"
+    ],
+    "responses": [
+        "Stress can be categorized into acute stress, episodic acute stress, and chronic stress. Acute stress is short-term and often a response to immediate challenges. Episodic acute stress involves recurring episodes of acute stress, while chronic stress is long-term and may result from ongoing situations or conditions.",
+        "Types of stress include acute stress, episodic acute stress, and chronic stress. Acute stress is short-lived, episodic acute stress involves repeated episodes, and chronic stress is prolonged. Recognizing these types helps tailor effective stress management strategies.",
+        "Categories of stress encompass acute stress, episodic acute stress, and chronic stress. Each type has unique characteristics and impacts on health. Understanding these categories is important for developing targeted stress management approaches.",
+        "Stress is classified into different types, such as acute stress, which is short-term and immediate, episodic acute stress, involving recurring episodes, and chronic stress, which is long-term and persistent. Recognizing these types aids in developing appropriate coping strategies.",
+        "Various forms of stress include acute stress, which is brief and intense, episodic acute stress with recurring episodes, and chronic stress, which is persistent. Identifying the specific type of stress is crucial for implementing effective stress management techniques."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "stress-sign-symbol",
+    "patterns": [
+        "What are the signs of stress?",
+        "How can I identify if I'm stressed?",
+        "Are there specific symbols of stress?",
+        "Can you list the indicators of stress?",
+        "What are the identifiers of stress?"
+    ],
+    "responses": [
+        "Signs of stress include physical symptoms like headaches, muscle tension, and fatigue. Emotional indicators may include irritability, anxiety, or changes in mood. Recognizing these signs is crucial for early intervention and effective stress management.",
+        "Identifying stress involves recognizing physical signs like increased heart rate, tense muscles, and changes in sleep patterns. Emotional indicators may include feelings of overwhelm or irritability. Paying attention to these signals helps in managing stress effectively.",
+        "Symbols of stress can manifest as physical symptoms such as headaches, muscle tension, and fatigue. Emotional symbols may include irritability, anxiety, or changes in mood. Recognizing these indicators is important for addressing stress and maintaining well-being.",
+        "Indicators of stress may include physical signs like headaches or stomachaches, and emotional indicators such as irritability or mood swings. Being aware of these identifiers helps in taking proactive steps to manage and reduce stress.",
+        "Identifiers of stress include physical symptoms like tension or fatigue and emotional signs such as irritability or anxiety. Recognizing these indicators is essential for implementing effective stress management strategies."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "stress-cause",
+    "patterns": [
+        "What causes stress?",
+        "What are the causes of stress?",
+        "Can you explain the factors that lead to stress?",
+        "How do life events contribute to stress?",
+        "Are there specific triggers for stress?"
+    ],
+    "responses": [
+        "Stress can be caused by various factors, including demanding life events, work pressures, financial challenges, and relationship issues. It's a complex interplay of external situations and individual perceptions. Recognizing these factors is the first step in effective stress management.",
+        "Various factors contribute to stress, such as high work demands, challenging life events, financial pressures, and relationship issues. Understanding how these factors interact is crucial for developing effective stress management strategies.",
+        "Life events, especially those perceived as challenging or overwhelming, can contribute to the development of stress. Work-related pressures, financial issues, and personal challenges are common triggers. Recognizing and addressing these factors is important for stress management.",
+        "Triggers for stress may include work-related factors, demanding schedules, and personal challenges. Understanding the specific causes is essential for implementing effective stress management techniques and improving overall well-being."
+       
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "stress-cure-treatment",
+    "patterns": [
+        "How is stress treated?",
+        "Is there a cure for stress?",
+        "Can you recommend ways to overcome stress?",
+        "What are effective treatments for stress?",
+        "How can one manage and alleviate stress?"
+    ],
+    "responses": [
+        "While there may not be a complete cure for stress, effective treatments include stress management techniques such as deep breathing, meditation, and exercise. Seeking support from friends, family, or a mental health professional can also be beneficial in managing stress.",
+        "There may not be a definitive cure for stress, but it can be effectively managed through various treatments. Practices like mindfulness, regular exercise, and maintaining a healthy work-life balance are key components of stress management.",
+        "Overcoming stress involves adopting stress management strategies like mindfulness, relaxation techniques, and exercise. While a complete cure may not be guaranteed, consistent and proactive management can significantly alleviate stress.",
+        "Effective treatments for stress include stress management techniques such as cognitive-behavioral therapy (CBT), mindfulness meditation, and physical activity. Developing a personalized stress management plan with the help of a mental health professional can be beneficial.",
+        "Managing and alleviating stress includes adopting healthy coping mechanisms like deep breathing exercises, engaging in regular physical activity, and seeking social support. While there may not be a complete cure, these strategies can significantly improve one's ability to cope with stress."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eIXE4j7jPDw?si=udRwtmq1Nq-vJX-W\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Nz9eAaXRzGg?si=Y8eP3diAFeYM2wWR\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rukcQcZ1NYE?si=1DhZhl2ALUVp1DVl\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/grfXR6FAsI8?si=gjXeFlKoQogA13U2\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/15GaKTP0gFE?si=l_kYCD5j88RgjjoN\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+
+    ]
+},
+{
+    "tag": "stress-prevent",
+    "patterns": [
+        "How can stress be prevented?",
+        "Are there strategies to avoid stress?",
+        "What preventive measures can be taken for stress?",
+        "Can you provide tips for preventing stress?",
+        "How to avoid developing stress?"
+    ],
+    "responses": [
+        "Preventing stress involves adopting healthy lifestyle habits, practicing time management, setting realistic goals, and maintaining a strong support system. Engaging in relaxation techniques, regular exercise, and adequate sleep also contribute to overall stress prevention.",
+        "Strategies to avoid stress include maintaining a balanced work-life schedule, setting boundaries, and practicing mindfulness. Adequate sleep, regular exercise, and seeking social support are important components of stress prevention.",
+        "To prevent stress, consider practicing stress management techniques such as mindfulness and deep breathing exercises. Setting realistic goals, maintaining a healthy work-life balance, and seeking social connections are key aspects of stress prevention.",
+        "Preventive measures for stress include time management, setting priorities, and maintaining a positive mindset. Engaging in activities you enjoy, practicing relaxation techniques, and seeking support contribute to effective stress prevention.",
+        "Tips for preventing stress involve establishing healthy routines, setting clear boundaries, and practicing self-care. Regular exercise, adequate sleep, and maintaining positive relationships are essential for stress prevention."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eIXE4j7jPDw?si=udRwtmq1Nq-vJX-W\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Nz9eAaXRzGg?si=Y8eP3diAFeYM2wWR\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rukcQcZ1NYE?si=1DhZhl2ALUVp1DVl\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/grfXR6FAsI8?si=gjXeFlKoQogA13U2\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/15GaKTP0gFE?si=l_kYCD5j88RgjjoN\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+
+
+
+
+
+
+{
+    "tag": "meditation-what-is-it",
+    "patterns": [
+        "What is meditation?",
+        "Tell me about meditation.",
+        "Define meditation.",
+        "What does meditation mean?",
+        "Can you give a simple explanation of meditation?",
+        "How would you describe meditation in simple terms?",
+        "What is the basic definition of meditation?"
+    ],
+    "responses": [
+        "Meditation is a practice of training the mind to achieve a state of mental clarity, relaxation, and heightened awareness. It often involves techniques such as focused breathing or mantra repetition.",
+        "Meditation is a method for training the mind to reach a state of calm and focused awareness. It helps promote relaxation and reduce stress.",
+        "In simple terms, meditation is a practice that involves calming the mind and increasing awareness. It's often done through techniques like focused breathing or visualization.",
+        "Meditation is a mental exercise aimed at achieving a clear, calm mind. It involves techniques like mindful breathing or repeating a mantra to foster relaxation and mindfulness.",
+        "The basic definition of meditation is a practice that trains the mind to achieve mental clarity, relaxation, and heightened awareness, often through techniques like focused attention or repetition of a mantra."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-types",
+    "patterns": [
+        "What are the different types of meditation?",
+        "Can you list various forms of meditation?",
+        "Are there specific categories of meditation?",
+        "How is meditation classified into different types?",
+        "Can you explain the various forms of meditation?"
+    ],
+    "responses": [
+        "Meditation comes in various forms, including mindfulness meditation, loving-kindness meditation, transcendental meditation, and guided visualization. Each type offers different approaches and benefits, catering to individual preferences and goals.",
+        "Types of meditation include mindfulness meditation, loving-kindness meditation, transcendental meditation, and guided visualization. Each form emphasizes different aspects, making meditation a versatile practice suitable for various preferences.",
+        "Categories of meditation encompass mindfulness meditation, loving-kindness meditation, transcendental meditation, and guided visualization. Exploring these categories allows individuals to find a meditation style that resonates with their goals and preferences.",
+        "Meditation is classified into different types, such as mindfulness meditation, loving-kindness meditation, transcendental meditation, and guided visualization. Understanding these various forms provides individuals with options to choose a practice that aligns with their needs.",
+        "Various forms of meditation include mindfulness meditation, loving-kindness meditation, transcendental meditation, and guided visualization. Exploring these different types allows individuals to discover a meditation practice that suits their preferences and objectives."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-benefit",
+    "patterns": [
+        "What are the benefits of meditation?",
+        "Can you explain how meditation is beneficial?",
+        "How does meditation positively impact health?",
+        "Are there mental benefits of practicing meditation?",
+        "Can meditation improve overall well-being?"
+    ],
+    "responses": [
+        "Meditation offers numerous benefits, including stress reduction, improved focus, enhanced emotional well-being, and better sleep. Regular practice is associated with lower blood pressure, reduced anxiety, and increased feelings of calm and relaxation.",
+        "The benefits of meditation extend to stress reduction, increased self-awareness, and improved emotional balance. It has also been linked to enhanced cognitive function, better concentration, and overall mental well-being.",
+        "Meditation positively impacts health by promoting relaxation, reducing inflammation, and improving immune function. It has been associated with lower levels of stress hormones and may contribute to overall cardiovascular health.",
+        "Practicing meditation has mental benefits such as reduced anxiety, improved mood, and increased mindfulness. It fosters a sense of clarity, helping individuals manage negative thoughts and emotions more effectively.",
+        "Meditation can improve overall well-being by fostering a sense of calm, reducing stress, and enhancing emotional resilience. Physical benefits, such as better sleep and improved immune function, contribute to an overall healthier lifestyle."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-start-as-beginner",
+    "patterns": [
+        "How do I start meditating as a beginner?",
+        "Can you provide tips for someone new to meditation?",
+        "What steps should I take to begin meditation?",
+        "Are there beginner-friendly meditation techniques?",
+        "How can I incorporate meditation into my daily routine?",
+        "How to meditate?",
+        "Can you guide me on how to meditate?",
+        "What are the steps for meditation?",
+        "Is there a specific technique for meditation?",
+        "Can you provide instructions for meditation?",
+        "What meditation can i do?"
+    ],
+    "responses": [
+        "Starting meditation as a beginner involves finding a quiet and comfortable space. Begin with short sessions, focusing on your breath or using guided meditation apps. Gradually increase the duration as you become more accustomed to the practice.",
+        "For beginners, it's helpful to start with short meditation sessions, around 5-10 minutes. Choose a quiet space, sit comfortably, and focus on your breath. Guided meditation apps or videos can provide helpful instruction for beginners.",
+        "To begin meditation, find a quiet and comfortable space. Sit or lie down, focus on your breath, and let go of distractions. As a beginner, start with short sessions and explore different techniques to find what works best for you.",
+        "For someone new to meditation, it's beneficial to start with simple techniques. Practice mindful breathing, focus on a mantra, or explore guided meditations. Consistency is key, so gradually increase the duration as you get more comfortable."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/inpok4MKVLM?si=aKey70tefvyzZ1gZ\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3iUf73v92lI?si=YBZFLDaOZfdb4kqC\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mkJ5H0fnogQ?si=KDOzp4vN_a1jLUyA\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ix73CLI0Mo0?si=RkxrrQfAhv_XKfC5\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3o9etQktCpI?si=sG8Fkm8Y4CSSms52\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "meditation-duration-every-day",
+    "patterns": [
+        "How long should I meditate each day?",
+        "What is the ideal duration for meditation?",
+        "Can you recommend a specific time for meditation?",
+        "Is there a recommended length for daily meditation?",
+        "How much time should I dedicate to meditation each day?"
+    ],
+    "responses": [
+        "The ideal duration for meditation varies for each individual. As a starting point, consider dedicating 5-10 minutes to meditation each day. Gradually increase the duration as you become more comfortable with the practice.",
+        "There is no one-size-fits-all answer to how long you should meditate each day. Beginners can start with 5-10 minutes and gradually extend the duration based on personal comfort and availability.",
+        "The recommended length for daily meditation depends on your schedule and preferences. For beginners, starting with 5-10 minutes per day is a good practice. As you become more experienced, you may choose to extend the duration.",
+        "Dedicating 5-10 minutes to meditation each day is a good starting point for beginners. It's more important to establish a consistent practice than to focus on the length of each session. You can gradually increase the time as you feel comfortable.",
+        "As a beginner, consider starting with 5-10 minutes of meditation each day. The key is consistency, so find a duration that fits into your schedule and gradually build up as you become more accustomed to the practice."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-improve-sleep",
+    "patterns": [
+        "Can meditation improve sleep?",
+        "How does meditation impact sleep?",
+        "Is there a connection between meditation and better sleep?",
+        "Can practicing meditation help with sleep issues?",
+        "What role does meditation play in improving sleep?"
+    ],
+    "responses": [
+        "Yes, meditation can improve sleep by promoting relaxation and reducing stress. Regular meditation practice has been linked to better sleep quality and can be an effective tool for managing insomnia or sleep-related issues.",
+        "There is a strong connection between meditation and improved sleep. Meditation helps calm the mind, reduce stress, and promote relaxation, contributing to better sleep quality and overall sleep hygiene.",
+        "Practicing meditation is known to positively impact sleep by calming the nervous system and reducing stress. It can be particularly beneficial for individuals experiencing difficulties falling asleep or staying asleep.",
+        "There is a connection between meditation and better sleep. Meditation promotes relaxation, reduces anxiety, and creates a conducive mental state for restful sleep. Including meditation in your routine may help address sleep-related issues.",
+        "Meditation plays a significant role in improving sleep by calming the mind and reducing stress. Incorporating meditation into your bedtime routine can contribute to better sleep quality and overall well-being."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-helps-anxiety-stress",
+    "patterns": [
+        "Can meditation help with anxiety and stress?",
+        "How does meditation alleviate anxiety and stress?",
+        "Is there a connection between meditation and reduced stress?",
+        "Can practicing meditation be beneficial for managing anxiety?",
+        "What role does meditation play in stress relief?"
+    ],
+    "responses": [
+        "Yes, meditation can be highly effective in alleviating anxiety and stress. It promotes relaxation, reduces the production of stress hormones, and fosters a sense of calm and balance. Regular meditation practice is linked to improved mental well-being.",
+        "Meditation is known to alleviate anxiety and stress by calming the mind and promoting a state of relaxation. It helps regulate the body's stress response, leading to reduced feelings of tension and anxiety.",
+        "There is a strong connection between meditation and reduced stress. Meditation practices, such as mindfulness meditation, have been shown to positively impact the nervous system and contribute to lower stress levels.",
+        "Practicing meditation can be beneficial for managing anxiety by promoting mindfulness and reducing the impact of stressors. It provides a valuable tool for cultivating a calmer and more centered state of mind.",
+        "Meditation plays a crucial role in stress relief by promoting relaxation, reducing anxiety, and fostering a mindful awareness. Integrating meditation into your routine can contribute to improved emotional well-being."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "meditation-why-important",
+    "patterns": [
+        "Why is meditation important?",
+        "Can you explain the significance of meditation?",
+        "What makes meditation an important practice?",
+        "Is there a specific reason why meditation is valued?"
+    ],
+    "responses": [
+        "Meditation is important because it promotes mental clarity, reduces stress, and enhances overall well-being. It helps cultivate mindfulness, improves focus, and contributes to emotional balance. Regular meditation is linked to various physical and mental health benefits.",
+        "The significance of meditation lies in its ability to foster relaxation, reduce stress, and improve mental and emotional well-being. It's a valuable practice for cultivating mindfulness, enhancing self-awareness, and promoting a sense of inner peace.",
+        "Meditation is important as it plays a key role in stress reduction, emotional balance, and overall mental well-being. It provides a tool for self-reflection, mindfulness, and creating a calm mental state, contributing to a healthier lifestyle.",
+        "Meditation is valued for its ability to enhance mental well-being, reduce stress, and promote mindfulness. It is important as a practice that contributes to overall emotional balance, self-awareness, and a more centered approach to life."
+    ],
+    "url": ["null"]
+},
+
+
+
+
+
+
+{
+    "tag": "self-care-what-is-it",
+    "patterns": [
+        "What is self-care?",
+        "Can you define self-care?",
+        "Tell me about the concept of self-care.",
+        "What does self-care mean?",
+        "Is self-care important for well-being?"
+    ],
+    "responses": [
+        "Self-care is the practice of intentionally taking actions to maintain and improve one's physical, mental, and emotional well-being. It involves activities and habits that promote health, relaxation, and a balanced lifestyle.",
+        "Self-care is a concept that involves prioritizing and taking responsibility for your own well-being. It includes activities that nurture your physical, mental, and emotional health, fostering a sense of balance and fulfillment.",
+        "The concept of self-care revolves around deliberately engaging in activities that contribute to your overall well-being. It encompasses actions and practices that address your physical, mental, and emotional needs, promoting a healthier and more balanced lifestyle.",
+        "Self-care is the practice of actively taking steps to care for your own health and well-being. It involves recognizing and meeting your physical, mental, and emotional needs through various activities and habits.",
+        "Self-care is important for overall well-being. It involves making conscious choices to prioritize your health and happiness, leading to increased resilience, reduced stress, and an improved quality of life."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UaMFf6Y4hHU?si=9EzxBtr2vjgWZna2\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EguDLVf5x_U?si=1BcX--TPlx_ZissQ\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IYq0h3KgDpY?si=U0UZ5b19swxY0Nh8\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+},
+{
+    "tag": "self-care",
+    "patterns": [
+        "Why is self-care important?",
+        "Can you explain the significance of self-care?",
+        "What makes self-care essential?",
+        "Why should I prioritize self-care?",
+        "Is there a reason self-care is considered important?"
+    ],
+    "responses": [
+        "Self-care is important because it plays a crucial role in maintaining overall well-being. It helps prevent burnout, reduces stress, and promotes physical, mental, and emotional health. Prioritizing self-care allows individuals to function at their best and enjoy a more fulfilling life.",
+        "The significance of self-care lies in its ability to nurture and support one's health on multiple levels. By engaging in self-care practices, individuals can enhance their resilience, manage stress more effectively, and experience a greater sense of balance and happiness.",
+        "Self-care is essential because it contributes to a balanced and fulfilling life. It helps prevent feelings of overwhelm, improves mental health, and fosters a positive relationship with oneself. Prioritizing self-care is an investment in long-term well-being.",
+        "Prioritizing self-care is crucial because it helps maintain physical health, supports emotional well-being, and prevents burnout. It allows individuals to recharge, manage stress, and approach life's challenges with greater resilience.",
+        "Self-care is considered important as it contributes to overall health and happiness. Engaging in self-care practices helps individuals manage stress, prevent burnout, and cultivate a positive relationship with themselves. It is a key component of a healthy and balanced lifestyle."
+    ],
+    "url": ["null"]
+},
+{
+    "tag": "self-care-physical-examples",
+    "patterns": [
+        "What are some examples of physical self-care practices?",
+        "Can you provide examples of self-care for the body?",
+        "Tell me about physical self-care practices.",
+        "What activities fall under physical self-care?",
+        "How can I engage in self-care for my physical well-being?"
+    ],
+    "responses": [
+        "Examples of physical self-care practices include regular exercise, adequate sleep, proper nutrition, and staying hydrated. Taking breaks to stretch or move, practicing good hygiene, and getting massages are also effective ways to care for your physical well-being.",
+        "Physical self-care involves activities that support the body's health. Examples include engaging in regular exercise, ensuring sufficient sleep, maintaining a balanced diet, staying hydrated, and practicing good personal hygiene.",
+        "Physical self-care practices encompass actions that benefit the body. Examples include regular physical activity, prioritizing sleep, maintaining a nutritious diet, staying hydrated, and practicing good hygiene habits.",
+        "Activities that fall under physical self-care include exercise, adequate sleep, nutritious eating, staying hydrated, and maintaining good personal hygiene. Engaging in these practices contributes to overall physical well-being and vitality.",
+        "To engage in self-care for your physical well-being, consider activities like regular exercise, sufficient sleep, a balanced diet, hydration, and good personal hygiene. These practices contribute to maintaining and enhancing your physical health."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b_ZFjw-eEGo?si=E6unp8nBw-OlAZWb\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8LBwl8caLIs?si=Iaxn29gBQvS0Qx-g\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8e68An2juSI?si=40V3ILNUFuC2uKWf\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FMG3xaecN9Y?si=nawAkz7L62Tt48-3\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+   
+    ]
+},
+{
+    "tag": "self-care-mental-care",
+    "patterns": [
+        "What are some mental health self-care strategies?",
+        "Can you provide examples of self-care for mental well-being?",
+        "Tell me about mental health self-care practices.",
+        "How can I engage in self-care for my mental health?",
+        "What activities support mental well-being?"
+    ],
+    "responses": [
+        "Mental health self-care strategies include practices like mindfulness meditation, journaling, engaging in hobbies, setting boundaries, seeking social support, and practicing self-compassion. Taking breaks, managing stress through deep breathing, and getting professional support are also important for mental well-being.",
+        "Self-care for mental well-being involves strategies such as mindfulness meditation, journaling, engaging in creative hobbies, setting healthy boundaries, seeking social connections, and practicing self-compassion. Managing stress through relaxation techniques and accessing professional support are also valuable.",
+        "Mental health self-care practices encompass activities that support emotional well-being. Examples include mindfulness meditation, journaling, engaging in hobbies, setting boundaries, connecting with others, and practicing self-compassion. Managing stress and seeking professional support are also important.",
+        "Engaging in mental health self-care involves activities like mindfulness meditation, journaling, pursuing hobbies, setting healthy boundaries, connecting with others, and practicing self-compassion. Strategies for managing stress and seeking professional support contribute to overall mental well-being.",
+        "To support your mental well-being through self-care, consider activities such as mindfulness meditation, journaling, pursuing hobbies, setting boundaries, connecting with others, and practicing self-compassion. Strategies for managing stress and seeking professional support are also crucial."
+    ],
+    "url": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b_ZFjw-eEGo?si=E6unp8nBw-OlAZWb\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8LBwl8caLIs?si=Iaxn29gBQvS0Qx-g\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8e68An2juSI?si=40V3ILNUFuC2uKWf\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FMG3xaecN9Y?si=nawAkz7L62Tt48-3\" title=\"YouTube video player\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+  }
